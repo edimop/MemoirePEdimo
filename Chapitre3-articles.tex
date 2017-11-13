@@ -1,0 +1,36 @@
+\chapter{A stochastic frontier analysis for enhanced treatment quality of High-Dose-Rate brachytherapy plans} % numéroté
+%
+\section{Résumé} 
+%
+\section{Abstract} 
+\noindent The purpose of the present study is to develop a quality control (QC) model based on patient-specific geometric parameters, using the stochastic frontier analysis, a method of economic modeling. The built models act as QC tool by predicting in advance (before the treatment process starts) the final dosimetry achievable for an HDR brachytherapy prostate plan. Geometric parameters involved in the modelling process are the contoured volumes (CTV, OARs), the Hausdorff distance between CTV and OARs, and a third parameter measuring the degree of non-parallelism of catheters within the target volume. Dosimetry parameters of interest are V$_{100}$ for the CTV, V$_{75}$ (bladder, rectum) and D$_{10}$ (urethra). Results show that the built models can provide valuable information on the personalization of the optimization process based on the patient geometric parameters. The impact on the quality plan due to the planner's experience variability and judgment is reduced by using these models. Furthermore, a good trade-off between the target volume coverage and OARs sparing does not longer depend on the planner's judgment, but can be achieved by moving each plan at least around their respective frontier for V$_{100}$, V$_{75}$ and D$_{10}$. The use of these models can be extended as a robust benchmarking tool for comparison of plans quality obtained from different optimization techniques, as well as, among different institutions, and for selecting optimized plans for a knowledge-based study. The overall results demonstrate that optimized plans from a TPS, even clinically acceptable, are not necessarily the best that can be achieved.\newline
+\newline
+\textbf{Keywords} Stochastic frontiers analysis, brachytherapy, geometric parameters, quality control, confidence intervals.\newline
+%
+\section{INTRODUCTION}
+\lettrine[nindent=0em,lines=2]{T}{}he goal of radiotherapy is to deliver a prescribed dose to the target volume, consistent  with  maintaining  complication  rates to surrounding tissues and organs at risk (OAR) within an  
+acceptable level. This can be acheived by using brachytherapy technique, the most conformal radiation therapy used to tread several kinds of cancer such as, prostate, breast and cervical. Depending of the lesions involved in the treatment process, this radiation therapy modality can be performed in many ways known as, Intra-cavity Brachytherapy, Intertitial Brachytherapy, Intraluminal Brachytherapy and surface applications \cite{podgorsak@2005, khan@2014}. High Dose Rate (HDR) brachytherapy modality use small radioactive sealed source such as Iridium-192 which is automatically handled from a remote afterloading unit. This source allows a high dose rate and the superior dose distribution in the target volume, while lowering radiation exposure to the workers in an acceptable level. However, the ability to meet clinical objectives during a treatment planning process depends on several factors, such as the accuracy of dose calculation algorithm, the optimization method used to compute dwell times at dwell positions of the radioactive source along specified applicator paths, as well as the planer’s experience variability and judgment. Most optimization methods focus on obtaining desired doses at a number of predefined points by the planner, and the treatment planning process is stopped when computed dwell time matches as closely as possible the desired doses constraints at these selected points. Besides, at the starting point of a treatment planning process, information about the maximum  clinical target volume (CTV) coverage, the trade-off between OAR sparing and CTV dose homogeneity are usually unknown in advance. In forward optimization scheme, the planner is often required to adjust manually and iteratively dwell times and weights and compares the resulting dose distribution to the clinical objectives. In an inverse optimization scheme, case of Inverse Planning by Simulated Annealing (IPSA) \cite{lessard@2001, lessard@2002,Lessard2004}, the user manually modifies the weighing factor value of the cost function until dose objectives defined for each organ are fulfilled or when the cost function has reached its global minimum value.  As a consequence, a strong interaction between the planner and the Treatment Planing System (TPS) is an important step in producing an optimized plan. Moreover, criteria of CTV coverage, as well as the dose limit to OAR guiding the treatment planning process are usually those recommended by international organizations such as the American Brachytherapy Society (ABS) \cite{ABS} or task group such as the Radiation Therapy Oncology Group. RTOG 0924 \cite{RTOG}. Since these recommendations are based on randomized clinical trials, they do not, therefore, account for patient-to-patient variability of geometric parameters which play an important role on the balance between the CTV coverage and OAR sparing. Thus, whatever the optimization method used, even though a treatment plan is consistent with clinical objectives, it is therefore possible that the latter is not the most optimal that can be achieved based on the geometric parameters of the treatment plan concerned. \newline
+The original contribution of this paper is the introduction of a new concept of quality control for HDR brachytherapy plans, using stochastic frontier analysis, a method of economic modeling. The models will act as a quality control tool of treatment plans, by predicting dosimetric parameters values attainable at the starting point of the treatment planning process. These models will provide valuable indications in advance, on the level of dose reduction to OARs, as well as, the target volume coverage achievable. It is therefore expected that the plan quality will be lesser dependent of the optimization method used, the planner's experience variability and judgment. Furthermore, the planner's treatment time will be effectively managed since the planning process could be stopped at the right time.
+%
+\section{MATERIALS AND METHODS}
+%
+\subsection{Stochastic frontier analysis}
+%
+\subsection{Patients geometric parameters}
+%
+\subsection{Optimization process and models accuracy}
+%
+\section{RESULTS}
+\subsection{Goemetric parameters selection}
+%
+\subsection{Modeling results}
+%
+\subsection{Testing results}
+%
+\section{DISCUSSION}
+%
+\section{CONCLUSION}
+%
+\section{Acknowledgments}
+This work was partly supported by the CREATE Medical Physics Research Training Network grant of the Natural Sciences and Engineering Research Council (Grant number: 432290) and the Fellowships Program of the \enquote{Ministère de la Santé et des Services sociaux}. The authors are greatly indebted to the radiation oncology physicists Ms. Marie-Claude Lavallée and Annie Letourneau, medical physicists at the Hôtel-Dieu de Québec (Québec, Canada), for their help in  collecting patient sample for the development of this project. 
+
